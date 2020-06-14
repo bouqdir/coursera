@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	Module2Assignment</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			margin-left: 0;
+		 	margin-right: 0;
+		 	font-family: "Courier New", Courier, monospace;
+		}
+
+		div>section{
+		 	border: 1px solid black collapse;
+		 	margin-left: 5px;
+		 	margin-right: 5px;
+		 	background-color: gray;
+		 	padding: 40px;
+		 	position:relative;
+		 }
+
+		strong{
+			position:absolute;
+			top: 0px; 
+			right:0px;
+			width:33.33%; 
+			height: 30px;
+			padding-top: 4px;
+			text-align: center;
+			border: 1px solid black; 
+		}
+		.ck{
+			background-color: pink;
+
+		}
+		.bf{
+			background-color: yellow;
+
+		}
+		.sushi{
+			background-color: green;
+
+		}
+
+		h1{
+		 	text-align: center;
+		 	margin-bottom: 50px;
+		 	margin-top: 30px;
+
+		 }
+		 div>div{
+			width:33.33%;
+		 	float: left;
+
+		 }
+
+		@media(min-width: 992px){
+		 	.desktop{
+		 		width:33.33%;
+		 		float: left;
+		 	}
+
+		 }
+
+		@media(min-width: 768px) and (max-width:991px) {
+		 	.tablette{
+		 		width: 50%;
+		 	    float: left;
+		 	    margin-bottom: 10px;
+
+		 	}
+		 	.tablette2{
+		 		width: 100%;
+		 		float: left;
+		 	}
+
+		 }
+
+		@media(max-width: 767px){
+		 	.phone{
+		 		float: left;
+		 		width: 100%;
+		 		margin-bottom: 10px;
+		 	}
+		 	div>section{
+		 	margin-left: 50px;
+		 	margin-right: 30px;
+
+		 }
+
+		   
+	</style>
+</head>
+
+<body>
+	<div>
+		<h1> Our menu </h1>
+
+		<div class="desktop tablette phone">
+			<section>
+					<strong class="ck">Chicken</strong>
+			 You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.</section>
+		</div>
+
+		<div class="desktop tablette phone">
+			<section>
+					<strong class="bf">Beef</strong>
+			You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.</section>
+		</div>
+
+		<div class="desktop tablette2 phone">
+			<section>
+				<strong class="sushi">Sushi</strong>
+			You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.</section>
+		</div>
+	</div>
+
+</body>
+</html>
