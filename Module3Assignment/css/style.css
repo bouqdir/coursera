@@ -1,0 +1,31 @@
+body{
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	color:black;
+}
+/*NAVIGATION BAR*/
+a > h3{
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: teal;
+	text-decoration: none;
+	text-shadow: 2px 2px 8px #006666;
+}
+#navbarSupportedContent{
+	background-color: #e6ffff;
+
+}
+.nav-item{
+	border-collapse: collapse;
+	border-bottom: 1px solid grey;
+}
+
+/*PAGE BODY */
+.row{
+	background-color: teal;
+	padding: 15px 30px 30px 30px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
